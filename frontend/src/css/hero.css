@@ -1,0 +1,145 @@
+.HeroContainer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 800px;
+    position: relative;
+    z-index: 1; */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background:url(../../public/assets/images/latestbg.png) no-repeat;
+    /* background: linear-gradient(225deg,#0abac2,#b2de94); */
+    background-size: cover;
+    background-position: center;
+}
+
+.HeroContainer img {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.HeroContentContainer {
+    z-index: 3;
+    max-width: 1800px;
+    position: absolute;
+    padding: 8px 24px;
+
+    /* height: 88vh; */
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: 1.25fr 1fr;
+	align-items: center;
+	gap: 2rem;
+}
+
+.HeroTextContainer {
+
+    display: flex;
+    flex-direction: column;
+    flex:1 1 40rem;
+    
+}
+
+.HeroMainText {
+    color: var(--dark);
+    font-size: 4.5rem;
+    /* text-align: center; */
+    line-height: 1.2;
+	margin-bottom: 2rem;
+}
+
+.HeroSubTitle {
+    margin-top: 24px;
+    color: darkgrey;
+    font-size: 1.1.rem;
+    /* text-align: center; */
+    /* max-width: 600px; */
+    line-height: 32px;
+	margin-bottom: 2.3rem;
+    font-weight: 500;
+}
+
+.HeroMainText span {
+    color: var(--secondary);
+}
+
+.HeroImgContainer {
+    display: flex;
+    flex:1 1 40rem;
+
+
+}
+
+.HeroImgContainer img {
+    margin-left: 20px;
+    width:100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    padding:1rem;
+    animation:float 3s linear infinite;
+    
+}
+
+@keyframes float{
+    0%, 100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(2.5rem);
+    }
+  }
+
+.HeroBtnWrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+}
+
+.HeroBtnWrapper button {
+    border-radius: 4px;
+	background: none;
+	white-space: nowrap;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #ebecf0;
+    color: black;
+	outline: none;
+	border: 2px solid #fff;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+
+.HeroBtnWrapper button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.HeroBtnWrapper button:hover:before {
+    height: 500%;
+}
+
+.HeroBtnWrapper button:hover {
+    background: linear-gradient(225deg,#0abac2,#b2de94);
+    transition: 0.2s ease-in-out;
+    color: black;
+}

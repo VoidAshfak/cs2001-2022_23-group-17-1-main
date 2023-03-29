@@ -1,0 +1,137 @@
+
+/* The Modal (background) */
+.Modal {
+    display: flex;
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 15px;
+  }
+
+  .ModalHidden {
+     display: none; /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 15px;
+  }
+  
+  /* Modal Content */
+  .ModalContent {
+    z-index: 1000;
+    border-radius: 15px;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    max-width: 1100px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .Close {
+    color: white;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .Close:hover,
+  .Close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .ModalHeader {
+    border-radius: 15px 15px 0px 0px;
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    /* background-color: var(--secondary); */
+    color: white;
+  }
+
+  .ModalHeader H2 {
+    margin: 10px;
+  }
+
+  /* .ModalHeader .Close {
+    width: 50px;
+    justify-content: center;
+  } */
+  
+  .ModalBody {
+    padding: 2px 16px;
+}
+
+.ModalInputContainer {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    margin: 40px;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.ModalEntry {
+    color: var(--primary);
+}
+
+.ModalButtonContainer {
+    /* margin-top: 32px; */
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.ModalBtn {
+    margin-top: 32px;
+    border-radius: 15px;
+    background: #5cb85c;
+    white-space: now-wrap;
+    padding: 10px 22px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: -10px 0px 25px 50px;
+}

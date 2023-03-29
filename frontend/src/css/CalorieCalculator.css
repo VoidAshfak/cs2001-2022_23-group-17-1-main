@@ -1,0 +1,532 @@
+
+.CalorieMainContainer {
+ 
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1.5rem;
+  min-height: 99vh;
+  align-items: center;
+  background: url(../../public/assets/images/latestbg.png) no-repeat; 
+
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow-y: auto;
+
+}
+
+.MainText {
+  position: absolute;
+  width: 607px;
+  height: 86px;
+  left: 10px;
+  top: 150px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 86px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -5.3px;
+
+  color: #000000;
+}
+
+
+  
+
+.SubHeader {
+
+position: absolute;
+width: 500px;
+height: 100px;
+left: 150px;
+top: 190px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 71px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.5px;
+
+color: #000000;
+
+  
+}
+
+.TotalCalories{
+  position: absolute;
+  
+  left: 300px;
+  top: 280px;
+  justify-content: center;
+  color: #3e9743;
+  font-style: bold;
+  
+  font-size: 15px;
+
+}
+
+
+
+
+.ConsumedCalories{
+position: absolute;
+width: 550px;
+height: 180px;
+left: 40px;
+top: 480px;
+
+
+text-align: center;
+background: #62af53;
+border-radius: 40px;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.039)
+}
+
+.text1{
+  font-weight: 100;
+  
+}
+
+.option1button {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: 140px;
+  top: 80px;
+  
+
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.option1button:hover {
+  background: #D1C5F3;
+  color: #fff;
+}
+
+
+.button1text{
+margin-left: 10px;
+}
+
+
+.Remainingcalories{
+  background: #FFFFFF;
+  border-radius: 30px;
+  position: absolute;
+  width: 580px;
+  height: 180px;
+  left: 650px;
+  top: 300px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 86px;
+  
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+  letter-spacing: -1px;
+  color: #000000;
+
+  margin: auto;
+  text-indent: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+
+.Maintenancebutton {
+  position: absolute;
+  left: 720px;
+  width: 200px;
+  height: 80px;
+  top: 500px;
+  
+  background: #FFFFFF;
+  border-radius: 60px;
+
+  display: contents;
+  align-items: center;
+  outline: none;
+  border: 1px solid #00000024;
+    cursor: pointer;
+    text-decoration: none;
+
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.10);
+}
+
+.Maintenancebutton:hover {
+  background: #62af53;
+  color: #fff;
+}
+
+.Deletebutton{
+  position: absolute;
+  left: 800px;
+  top: 610px;
+
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #a72828;
+  color: #a72828;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-left: 20px;
+}
+
+.Deletebutton:hover {
+  background: #a72828;
+  color: #fff;
+ 
+}
+
+.pop-up-box {
+  position: absolute;
+  height: 400px;
+  top: 270px;
+  left: 649px;
+  width: 582px;
+
+  align-items: center;
+  text-align: center;
+  
+ 
+  background: #ffffff;
+  border-radius: 60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  
+  
+ 
+  margin: auto;
+  font-size: 10px;  
+  grid-template-columns: 60px 60px;
+  grid-template-rows: 90px 90px;
+  
+    
+  
+}
+
+.inputfeilds {
+  height: 35px;
+  width: 120px;
+  text-align: center;
+  margin-left: -350px;
+}
+
+.callabels{
+  margin-left: -350px;
+  font-size: 13px;
+}
+
+
+.cbutton-6 {
+  bottom: -10px;
+  left: 100px;
+ 
+  align-items: center;
+  background-color: #ffffffb9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.cbutton-6:hover,
+.cbutton-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.cbutton-6:hover {
+  transform: translateY(-1px);
+}
+
+.cbutton-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.cbutton-7 {
+  bottom: 250px;
+  left: 100px;
+  align-items: center;
+  background-color: #ffffffb9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.cbutton-7:hover,
+.cbutton-7:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.cbutton-7:hover {
+  transform: translateY(-1px);
+}
+
+.cbutton-7:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.cbutton-8 {
+  bottom: 300px;
+  left: 100px;
+ 
+  align-items: center;
+  background-color: #ffffffb9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.cbutton-8:hover,
+.cbutton-8:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.cbutton-8:hover {
+  transform: translateY(-1px);
+}
+
+.cbutton-8:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.caloimg{
+top: 150px;
+height: 300px;
+}
+
+.calresult{
+position: absolute;
+bottom: 250px;
+left: 235px;
+font-size: 13px;
+
+border-radius: 10px;
+}
+
+.calresult1{
+  position: absolute;
+  bottom: 170px;
+  left: 235px;
+  font-size: 13px;
+  background: rgb(230, 230, 230);
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  
+  }
+
+.pop-up-content1{
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 25px;
+  top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  background: rgb(237, 173, 71);
+  border-radius: 30px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+
+.inputcalories{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 177px;
+  height: 59px;
+  background: #D1C5F3;
+
+  border-radius: 70px;
+  outline: none;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: center;
+}
+
+.inputcalories1{
+  text-align: center;
+  margin-top: -220px;
+  margin-left: 200px;
+  width: 80px;
+  height: 40px;
+  background: #D1C5F3;
+
+  border-radius: 70px;
+  outline: none;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+
+.Goal{
+
+position: fixed;
+
+width: 280px;
+height: 250px;
+left: 800px;
+top: 300px;
+align-items: center;
+  
+justify-content: center;
+
+text-align: center;
+background: #3e9743;
+border-radius: 50px;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+
+margin: auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-content: center;
+color: #ffffff;
+
+}
+
+.Totalcal{
+left: 50px;
+}
+
+.Knowmore{
+
+  flex-wrap: wrap;
+  position: absolute;
+  width: 716px;
+  height: 171px;
+  left: 400px;
+  top: 1500px;
+  
+  font-size: 50px;
+  line-height: 86px;
+  letter-spacing: -1.8px;
+  
+  color: #000000;
+  display: flex;
+
+}
+
+.paragraph{
+
+  color: darkgrey;
+  font-size: 1.1.rem;
+  line-height: 32px;
+  font-weight: 500;
+  position: absolute;
+  height: 180px;
+  left: 120px;
+  top: 1600px;
+  right: 120px;
+
+}

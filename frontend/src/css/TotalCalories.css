@@ -1,0 +1,65 @@
+.TCbutton{
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    height: 80px;
+    top: 500px;
+    
+    background: #FFFFFF;
+    border-radius: 60px;
+    align-items: center;
+    outline: none;
+    border: 1px solid #00000024;
+    cursor: pointer;
+    text-decoration: none;
+  
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.102); 
+  }
+
+  .TCbutton:hover {
+    background: #62af53;
+    color: #fff;
+  }
+
+  .pop-up-content3 {
+
+    position: absolute;
+    left: 970px;
+    width: 200px;
+    height: 100px;
+    top: 490px;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+  
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.062); 
+  }
+
+  .ClosePopup {
+
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #62af53;
+    color: #62af53;
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+
+  
+  
+  .ClosePopup:hover {
+    background: #62af53;
+    color: #fff;
+   
+  }

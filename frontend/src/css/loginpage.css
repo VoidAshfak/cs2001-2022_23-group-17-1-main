@@ -1,0 +1,80 @@
+.containerlogin {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 1em;
+  margin-bottom: 50px;
+}
+
+.containerSet {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 1em;
+  margin-bottom: 50px;
+}
+
+form {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding: 14px;
+}
+.gap {
+  height: 200px;
+}
+.containerlogin {
+  height: 80vh;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.regform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.reg2 {
+  padding-top: 30px;
+}
+label {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}

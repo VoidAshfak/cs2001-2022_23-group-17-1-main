@@ -1,0 +1,98 @@
+.LightContainer {
+  /* background: #d2d29e; */
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 550px;
+  position: relative;
+  z-index: -1;
+}
+
+/* .AboutUsContainer:before {
+    box-shadow: 100px 20px 900px 100px  #d9e0498d; 
+    content:"";
+    position:absolute;
+    width:100%;
+    top: 1px;
+    z-index:-1;
+} */
+
+.LightSectionContainer {
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+}
+
+.LightContentRow {
+  display: flex;
+  margin: 0 -15px -15px -15px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: reverse;
+  justify-content: space-around;
+}
+
+.LightContentColumn {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.LightTextWrapper {
+  max-width: 540px;
+  padding-top: 0;
+}
+
+.LightTopLine {
+  font-size: 0.9rem;
+  line-height: 16px;
+  font-weight: 550;
+  letter-spacing: 1.4px;
+  margin-bottom: 1.3rem;
+  color: #979797;
+}
+
+.LightHeading {
+  margin-bottom: 24px;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.LightSubtitle {
+  /* max-width: 440px;
+	margin-bottom: 35px;
+	line-height: 24px; */
+  margin-top: 24px;
+  color: darkgrey;
+  font-size: 1.1.rem;
+  /* text-align: center; */
+  /* max-width: 600px; */
+  line-height: 32px;
+  margin-bottom: 2.3rem;
+  font-weight: 500;
+}
+
+.ContentButton {
+}
+
+.ContentColumnImgWrapper {
+  display: flex;
+  justify-content: "flex-end";
+  max-height: 700px;
+  justify-content: center;
+  position: relative;
+}
+
+.ContentColumnImgWrapper img {
+  width: 400px;
+  margin-left: -3px;
+}

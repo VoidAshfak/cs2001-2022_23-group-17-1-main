@@ -1,0 +1,20 @@
+.caloriecontainer{
+
+    width: 796px;
+    height: 324px;
+    left: 300px;
+  
+    top: 800px;
+    
+    background: #74B666;
+    border-radius: 60px;
+    align-items: center;
+
+
+}
+
+.chart-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

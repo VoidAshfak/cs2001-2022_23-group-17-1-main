@@ -1,0 +1,366 @@
+.container {
+    min-height: 135vh;
+    width: 90%;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    gap: 20px 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul {
+    position: absolute;
+    width: 200px;
+    margin: 150px auto 0;
+}
+
+h4 {
+    position: absolute;
+    margin: 150px;
+    width: 200px;
+    margin-top: 320px;
+    margin-right: 150px;
+}
+
+.pancake-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:flex-start;  
+    margin-bottom: 400px; 
+}
+
+.pancakeImg {
+    height: 127px;
+    width: 130px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.pancake-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.pancake-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.oats-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 400px; 
+}
+
+.oatsImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.oats-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+.oats-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.smoothie-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 400px; 
+}
+
+.smoothieImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.smoothie-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 90px;
+    font-size: 20px;
+}
+
+.smoothie-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.oatmeal-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 400px; 
+}
+
+.oatmealImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.oatmeal-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.oatmeal-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.chicken-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-right: 900px;
+    margin-top: 500px;
+}
+
+.chickenImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.chicken-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.chicken-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.shrimp-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 300px;
+    margin-top: 500px;
+}
+
+.shrimpImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.shrimp-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.shrimp-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.salmon-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 500px;
+}
+
+.salmonImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.salmon-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.salmon-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+
+.salad-card {
+    height: 360px;
+    width: 250px;
+    background-color: rgb(187, 218, 171);
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: 500px;
+}
+
+.saladImg {
+    height: 127px;
+    width: 125px;
+    border-radius: 146.5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.salad-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+
+.salad-card h3 {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 130px;
+    margin-right: 120px;
+    font-size: 15px;
+}

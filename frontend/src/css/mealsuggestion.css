@@ -1,0 +1,382 @@
+
+.page{
+	background-color: var(--white);
+}
+.search_wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.search_box{
+	position: relative;
+    /* left: 5%; */
+	width: 70%;
+	height: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.page{
+	background-color: var(--white);
+}
+
+/* .input[type=text]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px;
+	font-size: 20px;
+    color: var(--orange);
+    padding-right: 150px;
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+} */
+
+/* .input[type=text]:focus{
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+
+} */
+
+.button{
+	position: absolute;
+	width: 125px;
+	height: 45px;
+	top: 7px;
+    bottom: 7px;
+	right: 8px;
+	background:var(--orange);
+	z-index: 1;
+	cursor: pointer;
+    border-radius: 18px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn:hover{
+	background: orangered;	
+}
+.heading2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0rem 0 0rem .5rem;
+    color: var(--black);
+	margin-bottom: 1rem;
+}
+
+.heading2 span {
+    color: var(--green);
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 1.5rem;
+	margin-top: -1rem;
+	margin-bottom: -1rem;
+    color: var(--black);
+}
+
+.heading3 span {
+    color: var(--primary);
+}
+
+
+.btn--primary{
+	color: var(--orange);
+	position: relative;
+	width: 15rem;
+	border-radius: 10rem;
+	text-decoration: none;
+	margin-top: -10rem;
+}
+
+.input[type=text]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* padding: 20px 20px; */
+	font-size: 20px;
+    color: var(--orange);
+    padding-right: 150px;
+    /* border: 2px solid var(--orange); */
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.input[type=text]:focus{
+    border-radius: 25px;
+    border: 2px solid var(--orange);
+
+}
+
+.button-cook{
+	position: absolute;
+	width: 125px;
+	height: 30px;
+	top: 7px;
+    bottom: 7px;
+	right: 8px;
+	background:var(--yellow);
+	z-index: 1;
+	cursor: pointer;
+    border-radius: 18px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn:hover{
+	background: orangered;	
+}
+
+.heading3 {
+    text-align: center;
+	margin-top: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.heading3 span {
+    color: var(--secondary);
+}
+
+.view-top{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	min-height: 20rem;
+	margin-bottom: -4rem;
+}
+.view-side1{
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	width: 45%;
+}
+.view-side2{
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	justify-items: center;
+	width: 45%;
+}
+.ingredients__container {
+	width: 100%;
+	margin: 2rem auto;
+	justify-content: center;
+}
+
+.search-cook {
+	width: 70%;
+	margin: 0rem 15%;
+	margin-top: 1rem;
+	height: 40px;
+}
+
+.not-found {
+	color: var(--black);
+	padding-top: 2rem;
+	font-size: 0.9rem;
+}
+
+.cook-btn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.icon-cook{
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: var(--secondary);
+	height: 4rem;
+	padding: 0.8rem;
+	width: 4rem;
+	border-radius: 50%;
+}
+
+.icon-cook:hover {
+	color: white;
+	background-color: var(--yellow);
+}
+.cook-text {
+	color: var(--primary);
+	margin-bottom: 1rem;
+}
+
+.list-recipe{
+	width: 100%;
+}
+.cook-view{
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+}
+
+.cook-img {
+	max-width: 15rem;
+	height: auto;
+}
+.cook-img2 {
+	max-width: 14rem;
+	height: auto;
+	align-self: center;
+	margin: 1rem 10rem;
+}
+.image-field {
+	display: flex;
+	justify-content: center;
+}
+
+/* @media (max-width: 1502px) {
+	.view-side1{
+		width: 50%;
+	}
+	.view-side2{
+		width: 50%;
+	}
+	.ingredients2__item {
+		width: 8.5rem;
+		margin: 0.5rem;
+	}	
+} */
+/* @media (max-width: 1280px) {
+	.view-side1{
+		width: 35%;
+	}
+	.view-side2{
+		width: 35%;
+	}
+	.ingredients2__item {
+		width: 8.5rem;
+		margin: 0.5rem;
+	}	
+} */
+@media (max-width: 1068px) {
+	.search_box {
+		width: 60%;
+	}
+	.input-search[type=text]{
+		padding-right: 75px;
+		font-size: 1rem;
+	}
+	.button-cook {
+		width: 70px;
+	}
+}
+
+@media (max-width: 845px) {
+	.view-side1{
+		border-radius: 10px;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		width: 100%;
+	}
+	.heading3 {
+		text-align: center;
+		font-size: 1.6rem;
+		color: black;
+		margin-bottom: -1rem;
+	}
+	.view-side2{
+		border-radius: 10px;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		justify-items: center;
+		width: 100%;
+		margin-top: -4rem;
+	}
+	.cook-view{
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+		margin-top: 2rem;
+	}
+	/* .input-search[type=text]{
+		padding-right: 75px;
+		font-size: 1rem;
+	}
+	.button-cook {
+		width: 60px;
+		height: 30px;
+		font-size: 0.9rem;
+	} */
+}
+@media (max-width: 673px) {
+.ingredients2__item {
+	width: 8rem;
+	margin: 0.5rem;
+}
+}
+
+@media (max-width: 610px) {
+	.ingredients2__item {
+		width: 7.5rem;
+		margin: 0.5rem;
+	}
+	}
+
+@media (max-width: 580px) {
+    .ingredients2__item {
+        width: 7rem;
+        margin: 0.5rem;
+    }		
+}
+
+@media (max-width: 545px) {
+    .ingredients2__item {
+        width: 6rem;
+        margin: 0.5rem;
+        height: 7rem;
+    }
+    .ingredients2__item__pic-wrap::after {
+        left: 10px;
+        top: 10px;
+        padding: 3px 3px;
+        font-size: 10px;
+        }
+    .ingredients2__item__text {
+        font-size: 16px;
+        }
+    }
+
+    @media (max-width: 513px) {
+        .ingredients2__item {
+            width: 6rem;
+            margin: 0.5rem;
+        }
+        /* .ingredients2__item__pic-wrap::after {
+            left: 10px;
+            top: 10px;
+            padding: 3px 3px;
+            font-size: 8px;
+            }
+        .ingredients2__item__text {
+            font-size: 14px;
+            } */
+        }
+	
+

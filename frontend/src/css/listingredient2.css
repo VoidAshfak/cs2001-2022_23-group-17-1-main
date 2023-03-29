@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+  }
+  
+  .ingredients__wrapper {
+    position: relative;
+    /* margin: 50px 0 45px; */
+  }
+
+  .ingredients__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.ingredients__container {
+  justify-content: center;
+  width: 100%;
+}

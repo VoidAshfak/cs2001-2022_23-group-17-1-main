@@ -1,0 +1,250 @@
+.health-beni {
+    /* display: flex; */
+    text-align: left;
+    /* list-style-type: none; */
+  }
+  .page {
+    background: white;
+    padding-top: 6rem;
+  }
+  .part-1 .beni {
+    font-size: 1.4rem;
+    padding: 0.2rem;
+    color: var(--secondary);
+    margin-left: 5%;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+  .part-1 .discription {
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    margin-left: 5%;
+    color: black;
+  }
+  
+  .part-1 .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .part-1 .col-6  {
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 40%;
+  }
+  
+  .part-1 .p-25 {
+    width: 45%;
+  }
+  
+  .ingredient__img {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 70%;
+    max-width: 90%;
+    height: 70%;
+    max-height: 80%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .ingredient__pic-wrap {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    padding-top: 90%;
+    /* overflow: hidden; */
+  }
+  
+  .part-1 .section-heading {
+    text-align: center;
+    position: relative;
+    color: var(--primary);
+  }
+  
+  .part-end .section-heading2 {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: var(--primary);
+  }
+  
+  .highlight{
+    position: relative;
+    height:5rem;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+  }
+  .item{
+  width: 7rem;
+  height: 3.8rem;
+  margin: 0 1rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  background: var(--primary);
+  border-radius: 1.2rem;
+  }
+
+  
+  .part-end {
+    position: relative;
+  }
+  
+  /* @media (max-width: 1500px) 
+  {
+    .part-1 .col-6  {
+      width: 45%;
+    }
+    .part-1 .p-25 {
+      width: 50%;
+    }
+    .part-1 .beni {
+      font-size: 1.2rem ;
+    }
+    .part-1 .discription {
+      font-size: 1.1rem;
+    }
+    .highlight {
+      margin-top: 1rem;
+    }
+  } */
+  
+  @media (max-width: 1200px) {
+    .part-1 .col-6  {
+      width: 30%;
+    }
+    .part-1 .p-25 {
+      width: 65%;
+      margin-top: -2rem;
+    }
+  
+    .part-1 .beni {
+      font-size: 1.2rem ;
+    }
+    .part-1 .discription {
+      font-size: 1.05rem;
+    }
+  }
+  @media (max-width: 900px) {
+    .part-1 .col-6  {
+      width: 90%;
+    }
+    .part-1 .p-25 {
+      width: 90%;
+      margin-top: -2rem;
+    }
+  
+    .part-1 .beni {
+      font-size: 1.2rem ;
+    }
+    .part-1 .discription {
+      font-size: 1.05rem;
+    }
+  
+    .item{
+      width: 7rem;
+      height: 3.4rem;
+      margin: 0 1rem;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      text-align: center;
+      background: var(--primary);
+      border-radius: 1.2rem;
+      }
+  
+      .part-end {
+        margin-top: 5rem;
+        position: relative;
+      }
+  }
+  /* @media only screen and (max-width: 900px) {
+    .part-1 .col-6  {
+      width: 100%;
+    }
+    .part-1 {
+      height: 72rem;
+    }
+    .part-1 .beni {
+      font-size: 1.2rem ;
+    }
+    .part-1 .discription {
+      font-size: 1.05rem;
+    }
+    .item{
+      width: 7rem;
+      height: 3.5rem;
+      margin: 0 1rem;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      text-align: center;
+      background: var(--green);
+      border-radius: 1.2rem;
+      }
+  
+      .part-1 .p-25 {
+        margin-top: -7rem;
+        margin-bottom: 6rem;
+      }
+  
+      .part-3 {
+        padding-top: 5rem;
+      }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .part-1 .col-6  {
+      width: 100%;
+    }
+    .part-1 {
+      height: 72rem;
+    }
+    .part-1 .p-25 {
+      margin-top: -9rem;
+      margin-bottom: 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .part-1 .col-6  {
+      width: 100%;
+    }
+    .part-1 {
+      height: 70rem;
+    }
+    .part-1 .p-25 {
+      margin-top: -9rem;
+      margin-bottom: 4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .part-1 .col-6  {
+      width: 100%;
+    }
+    .part-1 {
+      height: 60rem;
+    }
+    .part-1 .p-25 {
+      margin-top: -7rem;
+    }
+  }
+  
+  
+   */
+  
+  

@@ -1,0 +1,240 @@
+.AddIngredBorder {
+    /* Rectangle 12 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 1369px;
+    height: 682px;
+    left: 35px;
+    top: 43px;
+    
+    background: #FFFFFF;
+    border: 2px solid #007347; 
+    }
+    
+    .AddIngredTitle {
+    /* Add your own ingredients */
+    position: absolute;
+    width: 503px;
+    height: 48px;
+    left: 468px;
+    top: 83px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #74B666;
+    }
+    
+    .AddIngredName {
+    /* Ingredient Name: */
+    position: absolute;
+    width: 202px;
+    height: 29px;
+    left: 242px;
+    top: 149px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    
+    }
+    
+    .AddIngredNameInput {
+    /* Rectangle 13 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 122px;
+    top: 194px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;
+    }
+    
+    .AddIngredCategory {
+    
+    /* Category: */
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 281px;
+    top: 281px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    }
+    
+    .AddIngredCategoryInput {
+    
+    /* Rectangle 14 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 122px;
+    top: 336px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;
+    }
+    
+    .AddIngredServing {
+    
+    /* Serving Size: */
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 266px;
+    top: 423px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    }
+    
+    .AddIngredServingInput {
+    
+    /* Rectangle 18 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 122px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;
+    }
+    
+    .AddIngredCalories {
+    /* Calories: */
+    position: absolute;
+    width: 105px;
+    height: 29px;
+    left: 1047px;
+    top: 158px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    }
+    
+    .AddIngredCaloriesInput {
+    /* Rectangle 15 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 879px;
+    top: 194px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;
+    }
+    
+    .AddIngredSugar {
+    
+    /* Sugar: */
+    position: absolute;
+    width: 77px;
+    height: 29px;
+    left: 1061px;
+    top: 281px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    }
+    
+    .AddIngredSugarInput {
+    
+     /* Rectangle 16 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 879px;
+    top: 336px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;   
+    }
+    
+    .AddIngredFat {
+    
+    /* Fat: */
+    position: absolute;
+    width: 45px;
+    height: 29px;
+    left: 1077px;
+    top: 423px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #007347;
+    }
+    
+    .AddIngredFatInput {
+    
+    /* Rectangle 17 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 879px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 2px solid #007347;
+    border-radius: 20px;
+    }
+    
+    .SaveIngredButton {
+    
+    /* Rectangle 19 */
+    position: absolute;
+    width: 700px;
+    height: 61px;
+    left: 370px;
+    top: 592px;
+    background: #007347;
+    border-radius: 20px;
+    }
+    
+    .SaveIngredText {
+    
+    /* Save Ingredient */
+    position: absolute;
+    width: 184px;
+    height: 29px;
+    left: 628px;
+    top: 608px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+    }

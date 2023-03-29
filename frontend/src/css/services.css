@@ -1,0 +1,58 @@
+.ServicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 550px;
+  align-items: center;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+.ServicesContentContainer {
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+}
+
+.ServicesTextContainer {
+  max-width: 540px;
+  padding-top: 0;
+}
+
+.ServicesTopLine {
+  font-size: 0.9rem;
+  line-height: 16px;
+  font-weight: 550;
+  letter-spacing: 1.4px;
+  margin-bottom: 1.3rem;
+  color: #979797;
+}
+
+.ServicesContentSubContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.SingleService {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SingleServiceHeading {
+  margin-bottom: 24px;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.SingleService :hover {
+  transform: scale(1.03);
+}

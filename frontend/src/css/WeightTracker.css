@@ -1,0 +1,138 @@
+.outercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 99vh;
+  align-items: center;
+  background: url(../../public/assets/images/latestbg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+  .maintextcontainer {
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .containercontent {
+    z-index: 3;
+    max-width: 1800px;
+    position: absolute;
+    padding: 8px 24px;
+  
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .containertext {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 40rem;
+  }
+  .subheaderx {
+    margin-top: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    line-height: 48px;
+    margin-bottom: 2.3rem;
+    font-weight: 500;
+  }
+  
+  .subtextx {
+    margin-top: 24px;
+    color: darkgrey;
+    font-size: 1.1.rem;
+    line-height: 32px;
+    margin-bottom: 2.3rem;
+    font-weight: 500;
+  }
+  
+  .textinput{
+  align-items: start;
+  display: flex;
+  }
+
+
+  .textinput input {
+    width: 40px;
+    margin-top: 10px;
+    top: 2px;
+    left: 2px;
+    color: rgb(0, 133, 7);
+    font-size: large;
+    font-weight: 700;
+    margin-left: 7px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 151, 25);
+  }
+  
+  .textinput label {
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
+  
+  .subheaderx span {
+    color: rgb(0, 151, 25);
+  }
+
+  .deletebtn {
+    border-radius: 4px;
+    background: none;
+    border: 2px solid #a72828;
+    color: #a72828;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-left: 20px;
+  }
+  
+  .deletebtn:hover {
+    background: #a72828;
+    color: #fff;
+   
+  }
+
+  .submitbtn {
+    margin-top: 20px;
+    border-radius: 4px;
+    background: none;
+    border: 2px solid #28a748;
+    color: #28a748;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  
+  .submitbtn:hover {
+    background: #28a748;
+    color: #fff;
+   
+  }
+
+  .formstyling {
+    align-items: start;
+
+  }
+  Weightbuttonwrapper {
+
+    align-items: start;
+
+  }

@@ -1,0 +1,324 @@
+.Nav {
+    z-index: 10;
+    background: var(--primary);
+    box-shadow: 0 0 15px var(--dark);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+    border: 1.1px solid var(--dark);
+    /* margin-top: -5px; */
+}
+
+.NavContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    z-index: 1;
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1100px;
+};
+
+.Logo {
+    position: absolute;
+    display: flex;
+    justify-self: flex-start;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.LogoWrapper {
+    margin-bottom: 25px;
+    position: absolute;
+    margin-top: 10px;
+    background: var(--primary);
+    /* box-shadow: 0 0 20px var(--icons); */
+    box-shadow: 0 0 15px var(--dark);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    /* z-index: -1; */
+    top: -5px;
+    left: calc((100% - 125px) / 2);
+    border-bottom: 1.1px solid var(--dark);
+}
+
+.LogoWrapper img {
+    border: 1.1px solid var(--dark);
+    border-radius: 50%;
+}
+
+.LogoWrapper:before {
+    position: absolute;
+    content: "";
+    width: 150%;
+    top: -5px;
+    height: 58px;
+    left: -25%;
+    /* top: -30px; */
+    background: var(--primary);
+}
+
+.Img1 {
+    position: absolute;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    top: 7px;
+    z-index: 100;
+}
+
+.Menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    /* margin-right: -22px; */
+}
+
+.Item {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+	cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 3rem;
+    height: 100%;
+    cursor: pointer;
+    margin: auto;
+}
+
+.Item:nth-child(4) {
+    left:30px;
+}
+
+.MobileIcon1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    bottom: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    z-index: 100;
+}
+
+
+
+.BurgerMenu {
+    height: 100%;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-bottom: 5px;
+
+}
+
+.BurgerBar {
+    width: 2rem;
+    height: 0.3rem;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+.DropdownMenu1{
+    position: relative;
+    background: var(--secondary);
+    box-shadow: 0 0 20px var(--dark);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 6;
+    flex-direction: column;
+}
+
+.DropdownMenuHidden1{
+    position: relative;
+    background: var(--primary);
+    box-shadow: 0 0 20px black;
+    width: 100%;
+    height: 400px;
+    display: none;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+}
+
+.DropdownMenuList1 {
+    padding-top: 125px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 60px);
+    text-align: center;
+}
+
+.DropdownMenuItem1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.SubDropdownMenuHidden {
+    position: relative;
+    background: var(--primary);
+    box-shadow: 0 0 20px black;
+    width: 100%;
+    height: 400px;
+    display: none;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+}
+
+.SubDropdownMenu {
+    margin-left: 100px;
+    text-align: left;
+} 
+
+
+.SubDropdownMenuList1 {
+    /* padding-top: 125px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 60px);
+    text-align: left;
+}
+
+.SubDropdownMenuItem {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+.NavBtn1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    padding-bottom: 30px;
+}
+
+.NavBtnLink1 {
+    border-radius: 15px;
+    background: var(--yellow);
+    white-space: now-wrap;
+    padding: 10px 22px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Hover effects */
+
+.Item:hover {
+    /* color: var(--primary); */
+    color: var(--light-green);
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 5px;
+}
+
+.MobileIcon1:hover {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+}
+
+.BurgerBar:hover {
+    background-color: var(--light-green);
+    transition: all 0.3s ease-in-out;
+}
+
+.DropdownMenuItem:hover {
+    color: #014128;
+    transition: all 0.3s ease-in-out;
+    /* text-shadow: 0 0 20px white, 0 0 25px white, 0 0 20px white; */
+}
+
+.NavBtnLink1:hover {
+    box-shadow: 0 0 10px var(--dark);
+    background-color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+
+/* Media Quieries */
+@media (max-width: 1000px) {
+    .Item {
+        display: none;
+        transition: 0.5s ease-in-out;
+    }
+
+    .MobileIcon1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        bottom: 30px;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.5s ease-in-out;
+    }
+
+    .DropdownMenu{
+        display:flex;
+        transition: 0.5s ease-in-out;
+    }
+
+    .LogoWrapper {
+        left: calc((100% - 125px) / 2);
+    }
+}
