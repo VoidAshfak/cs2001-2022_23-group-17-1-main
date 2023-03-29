@@ -46,6 +46,9 @@ export default function Navbar() {
   const navigateToMealSuggestion = () => {
     navigate('/mealplanner/mealsuggestion');
   }
+  const navigateToMealCalculator = () => {
+    navigate('/mealplanner/ingredients/addingredient');
+  }
 
  // toggle burger DropdownMenu change
  const updateMenu = () => {
@@ -129,6 +132,9 @@ const updateMealplannerMenu = () => {
               </div>
               <div className='SubDropdownMenuItem' onClick={navigateToMealSuggestion}>
                 Meal suggestions
+              </div>
+              <div className='SubDropdownMenuItem' onClick={navigateToMealCalculator}>
+                Meal Calorie Calculator
               </div>
             </div>
           </div>
